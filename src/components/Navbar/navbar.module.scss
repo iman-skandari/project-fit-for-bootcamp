@@ -1,0 +1,45 @@
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem ;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background: #cecaca;
+    border-radius: 8px;
+   
+    .logoNavbar{
+        padding:0 1rem ;
+
+        & img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+   .titleNav{
+    
+
+    .titleNavList{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        gap: 1.5rem;
+        direction:ltr;
+        align-items: center;
+
+        & h2{
+            color: #6f0303;
+            cursor: pointer;
+        }
+    }
+    .navLink{
+        text-decoration: none;
+        
+    }
+   } 
+   .buttonNav{
+       padding: 0 1rem;
+
+   }
+}

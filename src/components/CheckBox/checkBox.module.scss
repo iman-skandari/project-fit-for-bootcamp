@@ -1,0 +1,19 @@
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  
+    input {
+      margin-right: 4px;
+      width: 14px;
+      height: 14px;
+    }
+  
+    label {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+  
